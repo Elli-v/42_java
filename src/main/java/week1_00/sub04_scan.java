@@ -16,13 +16,13 @@ class information_scan {
     public void read(Scanner scan){
         System.out.println("당신의 이름은 무엇인가요?");
         this.name = scan.next();
-        System.out.println("나이를 입력해 주세요 (숫자만)");
+        System.out.println("나이를 입력해 주세요 (숫자만 입력하세요)");
         this.age = scan.nextInt();
         System.out.println("성별이 무엇인가요 (여성 or 남성)");
         this.sex = scan.next();
         System.out.println("기혼 or 미혼");
         this. married = scan.next();
-        System.out.println("자녀가 몇 명 있나요? (숫자만)");
+        System.out.println("자녀가 몇 명 있나요? (숫자만 입력하세요)");
         this. child = scan.nextInt();
     }
 
