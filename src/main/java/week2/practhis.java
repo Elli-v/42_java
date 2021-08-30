@@ -1,4 +1,4 @@
-package week2.precthis;
+package week2;
 
 public class practhis {
     //본인의 인스턴스 주소
