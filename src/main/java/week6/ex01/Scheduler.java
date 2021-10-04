@@ -1,8 +1,8 @@
 package week6.ex01;
 
 public interface Scheduler {
-    abstract void   getNextCall();
-    abstract void   sendCallIoAgent();
+    void   getNextCall();
+    void   sendCallIoAgent();
 }
 
 class RoundRobin implements Scheduler {
